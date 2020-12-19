@@ -57,7 +57,7 @@ def main(input_path):
 
     logger.info("starting the function")
 
-    #input_path = '/Users/narayan/Downloads/TakeHomeAssignment/Python-Chicago_bird_collision_data'
+    #input_path = '/Users/Downloads/Chicago_bird_collision_data'
 
     logger.debug("checking for json files in below folder path \n %s ", input_path)
 
@@ -131,7 +131,7 @@ if __name__ == '__main__':
      #Giving input folder path to read the json files 
     print("Please enter the input folder path with '/' as separator")
 
-        # input_path = '/Users/Downloads/Python-Chicago_bird_collision_data'
+        # input_path = '/Users/Downloads/Chicago_bird_collision_data'
 
         # Take the input folder path which the files are present
     input_path = input()
