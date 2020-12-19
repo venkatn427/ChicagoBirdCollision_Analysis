@@ -34,17 +34,17 @@ The library used mostly in this script is Pandas (a Python package that provides
 
 Below are the steps included in the development of the script. 
 
-1) Take the folder path as input and list the json files for the folder. 
-	-> List all the json files from the given input folder. 
-2) Read the json files using pandas library and create a dataframe for each json file. 
-	-> For each file in the list, create a new dataframe and name it as filename.
-	-> check the dataframes to see the data is loaded.
-3) Analyze the data and look for any data discrepencies.
-	-> After checking the data data looks different in one table compared to other and need to change column names. 
-4) Since the column names are mismatched and data is not correct, the columns are renamed in inflight file. 
-	-> using replace the column names are changes to original names. 
-5) The files are combined to generate the output summarized file. 
-	-> After the column name changes, used merge to combine the dataframes on matched columns.
+	1) Take the folder path as input and list the json files for the folder. 
+		-> List all the json files from the given input folder. 
+	2) Read the json files using pandas library and create a dataframe for each json file. 
+		-> For each file in the list, create a new dataframe and name it as filename.
+		-> check the dataframes to see the data is loaded.
+	3) Analyze the data and look for any data discrepencies.
+		-> After checking the data data looks different in one table compared to other and need to change column names. 
+	4) Since the column names are mismatched and data is not correct, the columns are renamed in inflight file. 
+		-> using replace the column names are changes to original names. 
+	5) The files are combined to generate the output summarized file. 
+		-> After the column name changes, used merge to combine the dataframes on matched columns.
 
 while entering the outputfile path, we can select whether to provide outfilename with extension with yes or no condition. 
 
